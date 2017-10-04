@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <!-- Required elements-->
+    <id>Nini</id>
+    <version>1.1.0</version>
+    <description>Nini is an uncommonly powerful .NET configuration library designed to help build highly configurable applications quickly.</description>
+    <authors>Brent R. Matzelle</authors>
+
+    <!-- Optional elements -->
+    <title>Nini</title>
+    <owners>Brent R. Matzelle</owners>
+    <projectUrl>http://nini.sourceforge.net/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <copyright>Brent R. Matzelle</copyright>
+    <tags>dotnet dotnet-library configuration</tags>
+  </metadata>
+
+  <!-- Optional 'files' node -->
+  <files>
+  	<file src="Bin\DotNet\1.0\Debug\Nini.dll" target="lib\net20\Nini.dll" />
+    <file src="Bin\DotNet\1.0\Debug\Nini.pdb" target="lib\net20\Nini.pdb" />    
+  </files>
+</package>
