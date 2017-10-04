@@ -4,9 +4,7 @@ Nini is an uncommonly powerful .NET configuration library designed to help build
 
 Nini was originally written in 2004 by [Brent R. Matzelle](https://sourceforge.net/u/bmatzelle/profile/) as a [SourceForge project](https://sourceforge.net/projects/nini/).
 
-The library is available from the public geomatics.io [myget](http://www.myget.org) feed:
-
-https://www.myget.org/feed/geomatics/package/nuget/Nini
+The library is also available from the public geomatics.io [MyGet](http://www.myget.org) feed: https://www.myget.org/feed/geomatics/package/nuget/Nini
 
 ## Features
 
