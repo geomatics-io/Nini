@@ -1,0 +1,5 @@
+C:\Code\github\Nini\Nini\Bin\DotNet\1.0\Debug\NiniTest.dll
+C:\Code\github\Nini\Nini\Bin\DotNet\1.0\Debug\NiniTest.pdb
+C:\Code\github\Nini\Nini\Source\Test\obj\Debug\NiniTest.csprojResolveAssemblyReference.cache
+C:\Code\github\Nini\Nini\Source\Test\obj\Debug\NiniTest.dll
+C:\Code\github\Nini\Nini\Source\Test\obj\Debug\NiniTest.pdb

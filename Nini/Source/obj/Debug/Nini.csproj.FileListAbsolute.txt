@@ -1,0 +1,4 @@
+C:\Code\github\Nini\Nini\Bin\DotNet\1.0\Debug\Nini.dll
+C:\Code\github\Nini\Nini\Bin\DotNet\1.0\Debug\Nini.pdb
+C:\Code\github\Nini\Nini\Source\obj\Debug\Nini.dll
+C:\Code\github\Nini\Nini\Source\obj\Debug\Nini.pdb
