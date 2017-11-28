@@ -3,7 +3,7 @@
   <metadata>
     <!-- Required elements-->
     <id>Nini</id>
-    <version>1.1.0</version>
+    <version>1.1.3</version>
     <description>Nini is an uncommonly powerful .NET configuration library designed to help build highly configurable applications quickly.</description>
     <authors>Brent R. Matzelle</authors>
 

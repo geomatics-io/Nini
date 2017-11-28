@@ -42,7 +42,7 @@ using System.Runtime.CompilerServices;
 [assembly: AssemblyKeyFile(@"..\..\Nini.key")]
 #endif
 
-[assembly: System.Reflection.AssemblyVersion("1.1.0.0")]
+[assembly: System.Reflection.AssemblyVersion("1.1.3.0")]
 
 [assembly:CLSCompliant(true)] // Required for CLS compliance
 
