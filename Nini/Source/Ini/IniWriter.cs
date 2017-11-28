@@ -208,10 +208,29 @@ namespace Nini.Ini
 		{
 			if (!disposed) 
 			{
-			    textWriter.Flush ();
-                textWriter.Close ();
-			    baseStream.Flush ();
-                baseStream.Close ();
+
+			    try
+			    {
+			        textWriter.Flush();
+			    }
+                catch(Exception ex) { }
+
+			    try
+			    {
+			        textWriter.Close();
+                }
+			    catch (Exception ex) { }
+			    try
+			    {
+			        baseStream.Flush();
+                }
+			    catch (Exception ex) { }
+			    try
+			    {
+			        baseStream.Close();
+                }
+                catch (Exception ex) { }
+			    
 				disposed = true;
 
 				if (disposing) 

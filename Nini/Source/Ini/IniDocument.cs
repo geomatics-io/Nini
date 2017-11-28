@@ -167,9 +167,6 @@ namespace Nini.Ini
 					}
 				}
 			}
-            
-            writer.Flush ();
-			writer.Close ();
 		}
 		
 		/// <include file='IniDocument.xml' path='//Method[@name="SavePath"]/docs/*' />
