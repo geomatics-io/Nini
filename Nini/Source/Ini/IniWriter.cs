@@ -124,7 +124,8 @@ namespace Nini.Ini
 		/// <include file='IniWriter.xml' path='//Method[@name="Close"]/docs/*' />
 		public void Close ()
 		{
-			textWriter.Close ();
+		    textWriter.Flush ();
+            textWriter.Close ();
 			writeState = IniWriteState.Closed;
 		}
 		
@@ -207,8 +208,10 @@ namespace Nini.Ini
 		{
 			if (!disposed) 
 			{
-				textWriter.Close ();
-				baseStream.Close ();
+			    textWriter.Flush ();
+                textWriter.Close ();
+			    baseStream.Flush ();
+                baseStream.Close ();
 				disposed = true;
 
 				if (disposing) 

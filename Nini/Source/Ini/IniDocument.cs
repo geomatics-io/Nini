@@ -167,7 +167,8 @@ namespace Nini.Ini
 					}
 				}
 			}
-
+            
+            writer.Flush ();
 			writer.Close ();
 		}
 		
@@ -176,6 +177,7 @@ namespace Nini.Ini
 		{
 			StreamWriter writer = new StreamWriter (filePath);
 			Save (writer);
+		    writer.Flush ();
 			writer.Close ();
 		}
 
